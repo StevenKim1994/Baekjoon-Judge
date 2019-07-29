@@ -1,2 +1,4 @@
-﻿  9012.cpp
-LINK : fatal error LNK1168: C:\Users\XPS\Desktop\GitHub\Baekjoon-Judge\Baekjoon-Judge-Project\Debug\Baekjoon-Judge-Project.exe을(를) 쓰기용으로 열 수 없습니다.
+﻿  9251.cpp
+C:\Users\XPS\Desktop\GitHub\Baekjoon-Judge\Baekjoon-Judge-Project\9251.cpp(15,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\XPS\Desktop\GitHub\Baekjoon-Judge\Baekjoon-Judge-Project\9251.cpp(17,21): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+  Baekjoon-Judge-Project.vcxproj -> C:\Users\XPS\Desktop\GitHub\Baekjoon-Judge\Baekjoon-Judge-Project\Debug\Baekjoon-Judge-Project.exe
