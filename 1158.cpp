@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <stack>
 using namespace std;
 
 int main()
@@ -10,9 +11,14 @@ int main()
 	int check_point = 0;
 	vector<int> input_arr;
 	vector<int> answer_arr;
+	stack<int> st;
+	
 
 	cin >> N;
 	cin >> K;
+
+	cout << st.size();
+	st.push(3);
 
 	for (int i = 1; i <= N; i++)
 		input_arr.push_back(i);
