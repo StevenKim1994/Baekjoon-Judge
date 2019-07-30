@@ -1,4 +1,5 @@
-﻿  9251.cpp
-C:\Users\XPS\Desktop\GitHub\Baekjoon-Judge\Baekjoon-Judge-Project\9251.cpp(15,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\XPS\Desktop\GitHub\Baekjoon-Judge\Baekjoon-Judge-Project\9251.cpp(17,21): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+﻿  15483.cpp
+C:\Users\XPS\Desktop\GitHub\Baekjoon-Judge\Baekjoon-Judge-Project\15483.cpp(30,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\XPS\Desktop\GitHub\Baekjoon-Judge\Baekjoon-Judge-Project\15483.cpp(36,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\XPS\Desktop\GitHub\Baekjoon-Judge\Baekjoon-Judge-Project\15483.cpp(38,21): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
   Baekjoon-Judge-Project.vcxproj -> C:\Users\XPS\Desktop\GitHub\Baekjoon-Judge\Baekjoon-Judge-Project\Debug\Baekjoon-Judge-Project.exe
