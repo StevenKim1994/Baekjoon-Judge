@@ -1,73 +1,59 @@
+#include <array>
+#include <string>
 #include <iostream>
+#include <vector>
 
 using namespace std;
+int x, y;
+array<char, 1000> matrix[1000];
+bool search(int _x, int _y, string _input)
+{
+	if (_x >= x || _y >= y) // 입력된 좌표가 범위를 벗어나면 무조건 false (이는 재귀호출을 위함임)
+	{
+		return false;
+	}
 
+	if (matrix[_x][_y] != _input[0]) // 첫 문자가 아니면 무조건 아니니 false
+	{
+		return false;
+	}
+
+	if (_input.length() == 1) // 위에서 첫문자가 아닌지 확인했고 입력 문자의 길이가 1이면 하나만 맞으면 무조건 true임
+	{
+		return true;
+	}
+	
+	// 재귀 함수 호출부분
+
+	
+}
 
 int main()
 {
-	
-	int C; // TestCase
-	int H, W; // H * W 크기의 격자를 정하기위한 변수
-	char BOARD[21][21]; // 게임판
-	int WHITE = 0;
-	int BLACK = 0;
-	int MAX_SIZE;
-	
-	cin >> C;
+	string input;
 
-	for (int TestCase = 0; TestCase < C; TestCase++)
+
+	vector<char> answer;
+
+	cin >> x;
+	cin >> y;
+
+	for (int i = 0; i < x; i++)
 	{
-		// TestCase 
-		cin >> H;
-		cin >> W;
-		for (int height = 0; height < H; height++)
+		for (int j = 0; j < y; j++)
 		{
-			// Height
-			for (int weight = 0; weight < W; weight++)
-			{
-				// Weight
-				cin >> BOARD[height][weight]; // #: 검은칸 .: 흰칸
-				if (BOARD[height][weight] == '#')
-					BLACK++;
-
-				else if (BOARD[height][weight] == '.')
-					WHITE++;
-			}
-		}
-
-		if (WHITE % 3 != 0) // 예외1 :  L자 (3칸짜리) 로 흰칸을 모두 덮어야하며 게임판을 나가면 안되므로 흰칸의 수가 3의 배수가 아니면 무조건 불가
-		{
-			cout << "0" << endl;
-		}
-		else
-		{
-			MAX_SIZE = WHITE / 3; // L자를 사용해야할 최대개수
-			int iter_h = 0, iter_w = 0;
-			for (int i = 0; i < MAX_SIZE; i++)
-			{
-				if (BOARD[iter_h][iter_w] == '.')
-				{
-
-				}
-			
-
-			}
+			cin >> matrix[i][j];
 		}
 	}
 
+	cin >> input;
+
+	
+
+
+
+
+
+
 	return 0;
-}
-
-int brother()
-{
-
-
-	float a = 0;
-
-	return a;
-}
-
-void sister()
-{
-
 }

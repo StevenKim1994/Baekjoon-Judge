@@ -8,39 +8,19 @@ int main()
 {
 	int max_lcs = 0;
 	int max = 0;
+	string in;
 	string A;
 	string B;
-
-	cin >> A;
-	cin >> B;
+	A = "z";
+	B = "z";
+	cin >> in;
+	A = A + in;
+	cin >> in;
+	B = B + in;
 	
 	
 
-	if (A.length() >= B.length())
-	{
-		
-		for (int i = 0; i < B.length(); i++)
-		{
-			if (A[i] != B[i])
-			{
-				max++;
-			}
-		}
-
-		max = max + (A.length() - B.length());
-	}
-
-	else
-	{
-		for (int i = 0; i < A.length(); i++)
-		{
-			if (A[i] != B[i])
-			{
-				max++;
-			}
-		}
-		max = max + (B.length() - A.length());
-
+	
 		
 	for (int i = 1; i < A.length(); i++)
 	{
@@ -54,8 +34,15 @@ int main()
 			}
 		}
 	}
-	max = max - (max_lcs+1);
 	
+	
+	if (A.length() >= B.length())
+	{
+		max = A.length() - max_lcs;
+	}
+	else
+	{
+		max = B.length() - max_lcs;
 	}
 	 
 

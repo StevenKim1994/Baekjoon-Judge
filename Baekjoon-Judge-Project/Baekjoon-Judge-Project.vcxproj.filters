@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Jongmanbook">
+      <UniqueIdentifier>{a1f98967-6851-45ee-b663-08b6233d8aa6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\1018.cpp">
@@ -89,6 +92,9 @@
     </ClCompile>
     <ClCompile Include="1931.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="recursion_bubble(6.2).cpp">
+      <Filter>소스 파일\Jongmanbook</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
