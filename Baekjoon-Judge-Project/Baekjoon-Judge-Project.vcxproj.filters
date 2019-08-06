@@ -96,5 +96,8 @@
     <ClCompile Include="recursion_bubble(6.2).cpp">
       <Filter>소스 파일\Jongmanbook</Filter>
     </ClCompile>
+    <ClCompile Include="1946.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
