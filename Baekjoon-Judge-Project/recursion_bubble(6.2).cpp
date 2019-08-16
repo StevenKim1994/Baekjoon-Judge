@@ -21,8 +21,8 @@ array<int, 8> tY = { 1,0,1,-1,1,-1,0,1 };
 vector<char> temp;
 bool search(int _x, int _y, string _input)
 {
-	
-	if ((_x >= x) || (_y >= y) || (_y <0)||(_x<0)) // 입력된 좌표가 범위를 벗어나면 무조건 false (이는 재귀호출을 위함임)
+
+	if ((_x >= x) || (_y >= y) || (_y < 0) || (_x < 0)) // 입력된 좌표가 범위를 벗어나면 무조건 false (이는 재귀호출을 위함임)
 	{
 		return false;
 	}
@@ -34,25 +34,25 @@ bool search(int _x, int _y, string _input)
 
 	if (_input.length() == 1) // 위에서 첫문자가 아닌지 확인했고 입력 문자의 길이가 1이면 하나만 맞으면 무조건 true임
 	{
-		
+
 		return true;
 	}
-	
+
 	for (int i = 0; i < 8; i++)
 	{
 		int nextX = _x + tX[i];
 		int nextY = _y + tY[i];
-		
+
 		if (search(nextX, nextY, _input.substr(1)))// 재귀 함수 호출부분 _input.substr(1)의 의미는 호출될떄마다 앞자리가 사라지고 그 값을 다시 재귀함수 인자에 넣는다는 의미다.
 		{
 			temp.push_back(matrix[nextX][nextY]);
 			return true;
 		}
 	}
-	
-		return false; // 위에서 걸러지지 않으면 matrix에 원하는 문자들이 없는 것이다.
-	
 
+	return false; // 위에서 걸러지지 않으면 matrix에 원하는 문자들이 없는 것이다.
+	if(1){cout << endl; }
+	
 }
 
 int main()

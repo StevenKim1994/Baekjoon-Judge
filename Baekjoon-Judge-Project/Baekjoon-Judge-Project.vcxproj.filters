@@ -96,7 +96,31 @@
     <ClCompile Include="recursion_bubble(6.2).cpp">
       <Filter>소스 파일\Jongmanbook</Filter>
     </ClCompile>
-    <ClCompile Include="1946.cpp">
+    <ClCompile Include="1946%28timelimitexceeded%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="recursion_PICNIC(6.2).cpp">
+      <Filter>소스 파일\Jongmanbook</Filter>
+    </ClCompile>
+    <ClCompile Include="11053.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11365.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10171.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10172.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1001.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1008.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2588.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
