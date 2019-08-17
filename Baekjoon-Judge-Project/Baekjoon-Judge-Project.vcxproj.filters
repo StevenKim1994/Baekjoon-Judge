@@ -13,9 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\Jongmanbook">
-      <UniqueIdentifier>{a1f98967-6851-45ee-b663-08b6233d8aa6}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\1018.cpp">
@@ -93,14 +90,8 @@
     <ClCompile Include="1931.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="recursion_bubble(6.2).cpp">
-      <Filter>소스 파일\Jongmanbook</Filter>
-    </ClCompile>
     <ClCompile Include="1946%28timelimitexceeded%29.cpp">
       <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="recursion_PICNIC(6.2).cpp">
-      <Filter>소스 파일\Jongmanbook</Filter>
     </ClCompile>
     <ClCompile Include="11053.cpp">
       <Filter>소스 파일</Filter>
@@ -121,6 +112,24 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="2588.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1330.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2753.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2884.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1076.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10950.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1629%28범위초과%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
