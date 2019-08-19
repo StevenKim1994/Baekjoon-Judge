@@ -168,7 +168,10 @@
     <ClCompile Include="2675.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1157%28조금수정해야함%29.cpp">
+    <ClCompile Include="1065.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1152.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
