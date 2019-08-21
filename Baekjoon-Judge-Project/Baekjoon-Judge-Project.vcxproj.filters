@@ -126,9 +126,6 @@
     <ClCompile Include="10950.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1629%28범위초과%29.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="15552.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -181,6 +178,27 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="2775.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9095.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1463.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1003.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1629.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2010.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11944.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1932.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
