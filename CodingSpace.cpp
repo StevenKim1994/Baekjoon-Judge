@@ -1,55 +1,77 @@
-#include <iostream>
-#include <string>
+#include <bits/stdc++.h>
 
-using namespace std;
-
-int dp[1010][1010];
 int main()
 {
-	int max_lcs = 0;
-	int max = 0;
-	string in;
-	string A;
-	string B;
-	A = "z";
-	B = "z";
-	cin >> in;
-	A = A + in;
-	cin >> in;
-	B = B + in;
+	int T;
+	int bb, pp, ff; // bb : 빵 개수 , pp, 쇠고기 개수 , ff 치킨개수 
+	int hh, cc; // hh : 햄버거 가격, cc : 치킨버거 가격
+	int result = 0;
+	std::cin >> T;
 
-
-
-
-
-	for (int i = 1; i < A.length(); i++)
+	for(int i =0; i<T; ++i)
 	{
-		for (int j = 1; j < B.length(); j++)
+		std::cin >> bb >> pp >> ff;
+		std::cin >> hh >> cc;
+		result = 0;
+		if(cc >=hh) // 치킨이 더비살떄
 		{
-			if (A[i] == B[j])
+			while(true)
 			{
-				dp[i][j] = dp[i - 1][j - 1] + 1;
-				if (dp[i][j] >= max_lcs)
-					max_lcs = dp[i][j];
+				if (ff >= 1 && bb >= 2)
+				{
+					result += cc;
+					ff -= 1;
+					bb -= 2;
+				}
+				else
+					break;
+				
+			}
+
+			while(true)
+			{
+				if (pp >= 1 && bb >= 2)
+				{
+					result += hh;
+					pp -= 1;
+					bb -= 2;
+				}
+				else
+					break;
 			}
 		}
+
+		else if (cc < hh) //햄버거가 더비살때
+		{
+			while (true)
+			{
+				if (pp >= 1 && bb >= 2)
+				{
+					result += hh;
+					pp -= 1;
+					bb -= 2;
+				}
+				else
+					break;
+			}
+
+
+			while (true)
+			{
+				if (ff >= 1 && bb >= 2)
+				{
+					result += cc;
+					ff -= 1;
+					bb -= 2;
+				}
+				else
+					break;
+
+			}
+		}
+
+		std::cout << result << '\n';
+		
 	}
-
-
-	if (A.length() >= B.length())
-	{
-		max = A.length() - max_lcs;
-	}
-	else
-	{
-		max = B.length() - max_lcs;
-	}
-
-
-	cout << max << endl;
-
-
-	// string a,b에 각각을 입력받고LCS 길이를 구하고 al,bl 중 큰 값에서 LCS 길이를 빼주면될듯 19.08.03 ...
-
 	return 0;
 }
