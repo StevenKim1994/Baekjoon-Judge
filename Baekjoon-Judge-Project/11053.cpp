@@ -1,26 +1,20 @@
-#include <iostream>
-#include <vector>
-using namespace std;
+#include <bits/stdc++.h>
+
+int dp[1010][1010];
 
 int main()
 {
-	int N;
-	int input;
-	cin >> N;
-	vector<int> sequence;
+	int A_length;
 
-	for (int i = 0; i < N; i++)
-	{
-		cin >> input;
-		sequence.push_back(input);
-	}
-	
-	for (int element : sequence)
-	{
-		cout << element << " ";
-	}
-	cout << "\n";
+	std::cin >> A_length;
 
+	for(int i = 1; i <= A_length; ++i)
+	{
+		std::cin >> dp[0][i];
+		dp[i][0]= dp[0][i];
+	}
+
+	//getchar();
 
 
 
