@@ -1,36 +1,49 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <string>
+#include <stack>
 
 int main()
 {
-	std::stack<int> input;
-	int A, B;
-	int count = 0;
-	int temp;
-	char a_str[3], b_str[3];
+	std::string A, B;
+	std::stack<char> reverse;
+	int A_integer, B_integer;
+	std::cin >> A >> B;
 
-	std::cin >> a_str >> b_str;
-
-	for (int i = 0; i < 3; ++i)
-	}
-	
-	for(int i =0; i<3; ++i)
+	for(int i=0; i<A.length(); i++)
 	{
-		A = input.top();
-		input.pop();
-		A *= 10;
+		reverse.push(A[i]);
 	}
 
-	for(int i =0; i<3; ++i)
+	for(int i=0; i<A.length();i++)
 	{
-		B = input.top();
-		input.pop();
-		B *= 10;
+		A[i] = reverse.top();
+		reverse.pop();
 	}
 
-	if (A > B)
-		std::cout << A;
+	for(int i=0; i<B.length(); i++)
+	{
+		reverse.push(B[i]);
+	}
 
+	for(int i =0; i<B.length(); i++)
+	{
+		B[i] = reverse.top();
+		reverse.pop();
+	}
+
+	A_integer = std::stoi(A);
+	B_integer = std::stoi(B);
+
+	if (A_integer > B_integer)
+	{
+		std::cout << A_integer << '\n';
+	}
 	else
-		std::cout << B;
+	{
+		std::cout << B_integer << '\n';
+	}
+
+
+
 	return 0;
 }

@@ -1,4 +1,6 @@
-﻿  15649.cpp
-  There Are Two Types Of Burgers.cpp
-  코드를 생성하고 있습니다...
+﻿  2908.cpp
+C:\Users\XPS\Desktop\GitHub\Baekjoon-Judge\Baekjoon-Judge-Project\2908.cpp(12,16): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\XPS\Desktop\GitHub\Baekjoon-Judge\Baekjoon-Judge-Project\2908.cpp(17,16): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\XPS\Desktop\GitHub\Baekjoon-Judge\Baekjoon-Judge-Project\2908.cpp(23,16): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\XPS\Desktop\GitHub\Baekjoon-Judge\Baekjoon-Judge-Project\2908.cpp(28,17): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   Baekjoon-Judge-Project.vcxproj -> C:\Users\XPS\Desktop\GitHub\Baekjoon-Judge\Baekjoon-Judge-Project\Debug\Baekjoon-Judge-Project.exe
